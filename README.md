@@ -38,7 +38,7 @@ while it does.
 - **Always** (the default) keeps it on screen. While RuneLite is the active window it fades, since
   the game itself is in view then; that can be turned off.
 - **When RuneLite is not the active window** shows it a moment after you switch away and hides it
-  when you come back, the way [Lookout](https://github.com/CoreyUK/Lookout) does.
+  when you come back, the way [Lookout](https://github.com/ShepFX/Lookout) does.
 - **Only with the hotkey** leaves it to you. Ctrl+Shift+D by default; it only works while
   RuneLite is the active window, because the Dash window never takes keyboard focus and other
   programs keep their own shortcuts.
