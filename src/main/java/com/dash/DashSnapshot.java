@@ -77,7 +77,8 @@ class DashSnapshot
 		boolean buying;
 		int done;
 		int total;
-		int price;
+		/** Widened to long in RuneLite 1.13.0 for prices past the old signed 32 bit ceiling. */
+		long price;
 		GrandExchangeOfferState state;
 
 		boolean finished()
